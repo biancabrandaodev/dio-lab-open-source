@@ -89,6 +89,17 @@ Após criar o seu Pull Request, nossa automação irá validar a sua submissão.
 | `test`         | Adiciona ou modifica testes no projeto.                              | `test: add unit test for UserService`
 
 
+## Boas Práticas para Mensagens de Commit
+
+Para manter o histórico de alterações organizado e facilitar a revisão do projeto, siga estas boas práticas ao escrever suas mensagens de commit:
+
+- Use os tipos de commit definidos na seção de Convenção de Commits (feat, fix, docs, etc.).
+- Escreva mensagens curtas e objetivas, preferencialmente em inglês.
+- Utilize o formato: tipo: descrição da alteração, por exemplo:
+  ```bash
+  feat: add user profile to community
+
+
 ## Referências
 - [ANGULAR. Contributing to Angular](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md)
 - [CONVENTIONAL COMMITS. Summary](https://www.conventionalcommits.org/en/v1.0.0/)
